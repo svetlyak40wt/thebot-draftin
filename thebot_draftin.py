@@ -17,7 +17,6 @@ class Plugin(Plugin):
             self.template = u"""Title: {title}
 Slug: {slug}
 Date: {created_at}
-
 {content}"""
             
     @staticmethod
